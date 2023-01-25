@@ -40,14 +40,16 @@
 
     <p><?php echo $number1; ?></p>
     <p><?php echo $number2; ?></p>
+    
     <p><?php echo $total;?></p>
-<script>
-    <?php 
-    foreach($codeLang as $codeValue){
-        echo "document.write('<p>' + '$codeValue' + '</p>');";
-    }
-    ?>
-</script>   
+
+    <script>
+        <?php 
+        foreach($codeLang as $codeValue){
+            echo "document.write('<p>' + '$codeValue' + '</p>');";
+        }
+        ?>
+    </script>   
 </body>
 
 </html>
