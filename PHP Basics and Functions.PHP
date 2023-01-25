@@ -25,7 +25,7 @@ function displayNames(){
     global  $firstName , $lastName;// this will work and call the global variable 
     echo $firstName;
     echo $lastName;
-    echo SCHOOLNAME;
+    echo $SCHOOLNAME;
 }
 
 function displayInputs($infirstName){
